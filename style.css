@@ -70,6 +70,9 @@ nav>a{
     padding: 10px;
     animation: pulse 2s ease infinite;
 }
+.hero-btn:hover{
+    background-color: #702d2d;
+}
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -83,9 +86,10 @@ nav>a{
 }
 .about-section{
     padding: 10px;
+    padding-top: 50px;
     background-color: black;
 }
-h2{
+.about-section>h2{
     text-align: center;
     font-family: monospace;
     font-size: 25px;
@@ -98,4 +102,66 @@ h2{
     line-height: 23px;
     font-size: 18px;
     color: white
+}
+
+.service-section{
+    padding: 20px;
+}
+.service-cont>h2{
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+.service-list{
+    margin-bottom: 10px;
+}
+.service-list>h3{
+    color: #702d2d;
+}
+.service-list>p{
+    text-align: justify;
+    line-height: 22px;
+    color: #272727;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portfolio{
+    padding: 20px;
+}
+.portfolio>div>h2{
+    margin-bottom: 20px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-list{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    border-radius: 12px;
+    }
+
+.project-list>.project-btn{
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid #702d2d;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: bold;
+    background-color: #702d2d;
+    color: white;
+}
+.project-list>h2{
+}
+.project-list>p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #272727;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.project-list>img{
+    width: 100%;
 }
